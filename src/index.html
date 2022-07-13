@@ -1,14 +1,93 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>   
+    
+    <img src="Logo.jpg" alt="" class="logo">
+
+  </header>
+ 
+
+    <section id="primera">
+      <h1>Mondelicias</h1>
+      <h2>El toque de dulzura que necesitas</h2>
+      <article class="articulo">
+        
+        <p>Por favor registra tu Tarjeta de Credito para verificar si el valida y de esta forma continuar con tu compra. </p>
+        <br>
+        <br>    
+      </article>
+        <form action="" id="formulario" class="ccNumber">
+        <div class="grupo">
+          <label for="inputNumero">Numero de tarjeta</label>
+          <br>
+          <br>
+          <input type="text" class="input"id="inputNumero" name="inputNumero1" maxlength="16" autocomplete="off"
+            placeholder="xxxx-xxxx-xxxx-xxxx">
+        </div>
+      </form>
+      <div id="validarInformacion">
+        <button type="button" id="btn" class="btn">VERIFICAR</button>
+      </div>
+       
+      <div class="info">
+      <p>Somos un equipo de personas con ganas de entregarte la mejor experiencia de sabor. <br>
+        Estamos constantemente buscando nuevas delicias para ti y para los que amas.<br>
+        Queremos que disfrutes y endulces cada momento feliz de tu vida junto a nosotros.</p>
+      
+      </div>
+         
+    </section>
+ 
+
+  <!--Segunda pag muestra resultado-->
+  <section id="segunda" class="ventanaDos" style="display:none;">
+    <div class="comprobante" id="comprobante">
+      <h1>Mondelicias</h1>
+      
+    </div>
+
+    <form action="" id="formulari2" class="formulario2">
+      <label for="inputRespuesta"></label>
+      <input type="text" class="formularioDos"id="inputRespuesta" maxlength="16" autocomplete="off">
+    </form> <br>
+    <div id="mensaje" >
+      <article id="mensajeValido" class="mensajeUno">
+      </article>
+    </div>
+    <div class="Respuesta" id="respuesta">
+      <input type="button" class="boton2" value="Reiniciar">
+    </div>
+
+  </section>
+  
+  <br>
+  <br>
+  <br>
+
+  <footer>
+    <p>Copyright 2022 Mondelicias</p>
+    
+    <!--<<img src="redessociales.jpg" alt="redes sociales" width="300" height="70" class="redes">-->
+
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
