@@ -22,7 +22,7 @@ const validator = {
         } else if (i % 2 === 0) {
           sumaImpar = parseInt(sumaImpar) + parseInt(numberLunh[i])
         }
-        //almacenar los numeros impares.
+        //almacena numeros impares
   
       }
       //cierra for 
@@ -39,10 +39,10 @@ const validator = {
       }
   
     },
-    //se cierra la función
+    //cierra función
   
   
-    // aquí inicia el mastify
+    // maskify
     maskify: function (inputNumero) {
   
       let numberHidden = inputNumero.length;
