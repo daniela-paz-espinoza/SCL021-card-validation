@@ -108,6 +108,34 @@ footer {
     flex-direction: column;    
     margin: auto;
   }
+
+  .redes{
+    background: #e8ca96 ;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;   
+    
+  }
+
+  .whatsapp{
+
+    width: 40px;
+    height: 40px;
+
+  }
+
+  .facebook{
+    width: 40px;
+    height: 40px;
+ }
+
+  .instagram{
+    width: 40px;
+    height: 40px;
+
+  }
  
 /*Segunda pagina*/
 .ventanaDos {
